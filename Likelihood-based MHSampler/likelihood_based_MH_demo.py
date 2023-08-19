@@ -119,7 +119,7 @@ if __name__ == '__main__':
     plt.show()
 
     """
-    2d mixture_pdf
+    2d mixture gaussian
     """
 
     initial_state = np.array([[0, 0], [3, 0], [0, 4], [2, 3]]).reshape(4, -1)
