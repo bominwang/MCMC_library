@@ -22,7 +22,7 @@ The power of the Metropolis-Hastings algorithm is at your fingertips with just a
 #                     It should be a function that calculates the probability density of a given sample.
 # proposal_distribution: The proposal distribution used to generate candidate samples from the current sample.
 #                        It determines how new samples are explored in the space.
-#                        Common choices include 'uniform' or 'normal', or you can provide your own function.
+#                        Common choices include 'uniform' or 'normal'.
 # transfer_method: The transfer method specifying how to accept or reject candidate samples generated from the proposal distribution.
 #                  Common choices include 'component-wise' or 'block-wise'.
 # gpu_flag: Whether to enable GPU acceleration. If set to True, the algorithm will utilize GPU for computation (if available).
