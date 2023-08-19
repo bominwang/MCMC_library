@@ -1,7 +1,22 @@
 # MCMC_library: Likelihood-Based/Likelihood-Free Metropolis-Hastings Algorithm
 
-Welcome to the MCMC_library repository, a pristine Python library that offers a comprehensive implementation of the Likelihood-Based and Likelihood-Free Metropolis-Hastings (MH) Algorithm.
+Welcome to the MCMC_library repository, a pristine Python library that offers a comprehensive implementation of the Likelihood-Based Metropolis-Hastings (MH) Algorithm.
 
+## Features
+
+- Supports both block-wise and component-wise transfer methods.
+- Provides options for different proposal distributions (uniform and normal).
+- Allows for easy integration of custom target distributions.
+
+## Requirements
+
+- Python 3.x
+- NumPy
+- CuPy (for GPU acceleration)
+- SciPy
+
+## Installation
+You can install the required dependencies using pip:
 ## Likelihood-Based MH Sampler
 
 ### 1D Mixture Gaussian
