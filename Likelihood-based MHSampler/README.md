@@ -1,12 +1,20 @@
-# **Markov Chain Monte Carlo algorithm (MH)**
+# Metropolis-Hastings Algorithm
 
-The most classical implementation of Markov chain Monte Carlo sampling
-This library is primarily employed for the implementation of the following two algorithms:
+This repository contains a Python implementation of the Metropolis-Hastings algorithm for sampling from a target distribution. The algorithm is designed to support both CPU and GPU execution.
 
-(1) Original Metropolis-Hastings algorithm
+## Features
 
-(2) Adaptive Metropolis-Hastings algorithm
+- Supports both block-wise and component-wise transfer methods.
+- Provides options for different proposal distributions (uniform and normal).
+- Allows for easy integration of custom target distributions.
 
-Metropolis-Hastings is a Markov chain monte carlo algorithm often used for arbitrary distributions which are tricky to sample from.
+## Requirements
 
-According to Bayes' theorem, the posterior distribution (also referred to as the target distribution) is proportional to the product of the likelihood function and the prior distribution. Leveraging this property, the Metropolis-Hastings (MH) algorithm is capable of generating a Markov chain, wherein the stationary distribution is equivalent to the target distribution. This enables direct sampling from the posterior distribution.
+- Python 3.x
+- NumPy
+- CuPy (for GPU acceleration)
+- SciPy
+
+## Installation
+
+You can install the required dependencies using pip:
